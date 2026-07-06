@@ -2,4 +2,3 @@ node_modules/
 .env
 *.tmp
 data/users.json
-data/datasets.json

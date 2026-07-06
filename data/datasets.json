@@ -1,0 +1,32 @@
+[
+  {
+    "id": "b5546b79-e8c6-44b2-a826-99c0250da2c6",
+    "name": "BhashaBench-Finance (English)",
+    "category": "Multilingual Understanding and Generation Benchmarks",
+    "description": "A comprehensive finance and quantitative aptitude benchmark in English, covering 20+ topics including banking services, data analytics, mathematical reasoning, and problem solving. Part of the BhashaBench series designed to evaluate AI models on Indian financial knowledge.",
+    "source": "AIKosh (bharatgenai/BhashaBench-Finance)",
+    "isUnifiedSchema": true,
+    "sampleUsedForUnifiedSchema": "500",
+    "schemaJsonUrl": "https://drive.google.com/file/d/1LBAG2lhFOm4qkGdBlr2boilrNnhgap3N/view?usp=sharing",
+    "hasDifficultyLabel": true,
+    "difficultyLabelJsonUrl": "https://drive.google.com/file/d/1d0W4frZZMfj7uV_nyhzO6hQFkOt2UTzR/view?usp=sharing",
+    "methodology": "Difficulty estimation using 3 generator models (Llama-3.1-8B, Llama-4-Scout-17B, Llama-3.3-70B) via Groq API. Each model independently answers the MCQ and its predicted letter (A/B/C/D) is compared against the ground truth answer using exact match. Correct → 1, Wrong → 0. Pattern: 111 → Easy, two 1s → Medium, 0 or 1 correct → Hard.",
+    "createdAt": "2026-07-01T11:40:11.972Z",
+    "updatedAt": "2026-07-01T11:46:35.906Z"
+  },
+  {
+    "id": "530640ac-50c9-4e7f-b14f-cad66a074d32",
+    "name": "BhashaBench-Finance (Hindi)",
+    "category": "Multilingual Understanding and Generation Benchmarks",
+    "description": "A comprehensive finance and quantitative aptitude benchmark in English, covering 20+ topics including banking services, data analytics, mathematical reasoning, and problem solving. Part of the BhashaBench series designed to evaluate AI models on Indian financial knowledge.",
+    "source": "AIKosh bharatgenai/BhashaBench-Finance",
+    "isUnifiedSchema": true,
+    "sampleUsedForUnifiedSchema": "500",
+    "schemaJsonUrl": "https://drive.google.com/file/d/17JTxmKouvQmMI6BqesXmtUuRCFxsgARC/view?usp=sharing",
+    "hasDifficultyLabel": true,
+    "difficultyLabelJsonUrl": "https://drive.google.com/file/d/17JTxmKouvQmMI6BqesXmtUuRCFxsgARC/view?usp=sharing",
+    "methodology": "Difficulty estimation using 3 generator models (Llama-3.1-8B, Llama-4-Scout-17B, Llama-3.3-70B) via Groq API. Each model independently answers the MCQ and its predicted letter (A/B/C/D) is compared against the ground truth answer using exact match. Correct → 1, Wrong → 0. Pattern: 111 → Easy, two 1s → Medium, 0 or 1 correct → Hard.",
+    "createdAt": "2026-07-01T12:21:37.529Z",
+    "updatedAt": "2026-07-01T12:21:37.530Z"
+  }
+]
